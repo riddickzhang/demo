@@ -1,10 +1,8 @@
 name: demo
 on: push
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
-      uses: actions/checkout@master
-      run:
-      echo $github
+      - name: checkout
+        uses: actions/checkout@master
