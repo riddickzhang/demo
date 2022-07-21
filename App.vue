@@ -21,7 +21,7 @@
     data: () => ({
       data1: 0,
       pageTotal: 20,
-      current: 1,
+      // current: 1,
       pageSize: 10,
     }),
   }
